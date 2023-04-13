@@ -1,0 +1,87 @@
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.element{
+width: 25cm;
+height: 42%;
+margin-left: 2.5cm;
+flex-direction: column;
+}
+.child1{
+    background-color: blue;
+        margin-top: 3%;
+        position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    background-color: blueviolet;
+    width: 20%;
+    height: 84%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.box2{
+    background-color: aquamarine;
+    width: 40%;
+    height: 40%;
+    margin-top: 3%;
+    margin-left :1%;
+    
+    
+}
+.box3{
+    background-color: red;
+    width: 40%;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.box4{
+    background-color: brown;
+    width: 38%;
+    height: 40%;
+    align-self: flex-end;
+    position: absolute;
+    margin-left: 22%;
+    margin-bottom: 2%;
+}
+.box5{
+    background-color: yellow;
+        width: 38%;
+        height: 40%;
+        align-self: flex-end;
+        position: absolute;
+        margin-left: 61%;
+        margin-bottom: 2%;
+}
+.child2{
+    background-color: aliceblue;
+    align-self: flex-end;
+    margin-bottom: 3%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.size{
+    width: 22%;
+    height: 85%;
+    margin-top: 2%;
+    margin-left: 22px;
+}
+.row1{
+     background-color: peru;
+}
+.row2{
+    background-color: pink;
+}
+.row3 {
+    background-color: peru;
+}
+.row4 {
+    background-color: greenyellow;
+}
